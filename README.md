@@ -1,4 +1,4 @@
-# portfolio
+# portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/33bd7db9-78fe-48ed-97a8-23e8c5347e90/deploy-status)](https://app.netlify.com/sites/miharun/deploys)
 
 ## Build Setup
 
