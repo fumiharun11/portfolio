@@ -22,18 +22,22 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'theme-color', content: '#ffffff' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-      { hid: 'og:url', property: 'og:url', content: 'https://miharun.netlify.app'},
-      { hid: 'og:type', property: 'og:type', content: 'website'}, // TODO: use 'article' for all of our pages except for the top page.
-      { hid: 'og:title', property: 'og:title', content: 'Miharun\'s Portfolio'},
-      { hid: 'og:description', property: 'og:description', content: 'Welcome to miharun\'s portfolio.'},
-      { hid: 'og:site_name', property: 'og:site_name', content: 'Miharun\'s Portfolio'},
-      { hid: 'og:image', property: 'og:image', content: 'https://raw.githubusercontent.com/harukifumino/portfolio/master/og_image.png'},
-      { hid: 'og:image:width', property: 'og:image:width', content: '1200'},
-      { hid: 'og:image:height', property: 'og:image:height', content: '630'},
+      { hid: 'og:url', property: 'og:url', content: 'https://miharun.netlify.app' },
+      { hid: 'og:type', property: 'og:type', content: 'website' }, // TODO: use 'article' for all of our pages except for the top page.
+      { hid: 'og:title', property: 'og:title', content: 'Miharun\'s Portfolio' },
+      { hid: 'og:description', property: 'og:description', content: 'Welcome to miharun\'s portfolio.' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Miharun\'s Portfolio' },
+      { hid: 'og:image', property: 'og:image', content: 'https://raw.githubusercontent.com/harukifumino/portfolio/master/og_image.png' },
+      { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '630' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       { rel: 'manifest', href: '/manifest.json' },
     ]
   },
