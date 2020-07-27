@@ -74,7 +74,7 @@
           <v-btn
             color="primary"
             nuxt
-            to="/inspire"
+            to="/"
           >
             Continue
           </v-btn>
