@@ -8,7 +8,14 @@
       </v-col>
       <v-col cols="6">
         <v-layout justify-center align-center>
-          <h1>Welcome to Miharun's Portfolio</h1>
+          <h3>Welcome to</h3>
+        </v-layout>
+        <v-layout justify-center align-center>
+          <h1>Miharun's Portfolio</h1>
+        </v-layout>
+        <v-divider class="my-5"></v-divider>
+        <v-layout justify-center align-center>
+          <v-btn x-large depressed class="secondary">Profile</v-btn>
         </v-layout>
       </v-col>
     </v-row>
