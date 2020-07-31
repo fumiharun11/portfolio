@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="6">
+      <v-col cols="12" md="6">
         <v-layout justify-center align-center>
           <Thumbnail />
         </v-layout>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" md="6">
         <v-layout justify-center align-center>
           <div class="text-h6">Welcome to</div>
         </v-layout>
@@ -15,7 +15,7 @@
         </v-layout>
         <v-divider class="my-5"></v-divider>
         <v-layout justify-center align-center>
-          <div class="text-body-2 mb-3">If you want to know about me, please click the button below.</div>
+          <div class="text-body-2 mb-3">Please check my profile.</div>
         </v-layout>
         <v-layout justify-center align-center>
           <v-btn x-large depressed class="secondary text-button">Profile</v-btn>
