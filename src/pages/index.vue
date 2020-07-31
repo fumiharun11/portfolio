@@ -1,5 +1,5 @@
 <template>
-  <v-container class="grey lighten-3">
+  <v-container>
     <v-row>
       <v-col cols="6">
         <v-layout justify-center align-center>
@@ -8,14 +8,17 @@
       </v-col>
       <v-col cols="6">
         <v-layout justify-center align-center>
-          <h3>Welcome to</h3>
+          <div class="text-h6">Welcome to</div>
         </v-layout>
         <v-layout justify-center align-center>
-          <h1>Miharun's Portfolio</h1>
+          <div class="text-h4">Miharun's Portfolio</div>
         </v-layout>
         <v-divider class="my-5"></v-divider>
         <v-layout justify-center align-center>
-          <v-btn x-large depressed class="secondary">Profile</v-btn>
+          <div class="text-body-2 mb-3">If you want to know about me, please click the button below.</div>
+        </v-layout>
+        <v-layout justify-center align-center>
+          <v-btn x-large depressed class="secondary text-button">Profile</v-btn>
         </v-layout>
       </v-col>
     </v-row>
